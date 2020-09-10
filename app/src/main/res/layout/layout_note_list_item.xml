@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:gravity="center_vertical"
+    android:background="#b2beb5">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#6A6C6D"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/note_title"
+        android:layout_width="0dp"
+        android:layout_weight="70"
+        android:layout_height="wrap_content"
+        android:text="Lets see first Note"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="normal"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"/>
+
+    <TextView
+        android:id="@+id/note_timestamp"
+        android:layout_width="0dp"
+        android:layout_weight="25"
+        android:layout_height="wrap_content"
+        android:text="Jan 2020"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal"/>
+
+</LinearLayout>
