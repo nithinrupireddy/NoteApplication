@@ -56,7 +56,7 @@ public class EditNoteActivity extends AppCompatActivity implements
         setContentView(meditNoteBinding.getRoot());
 
 
-        //This is another test comment
+        //This is another test comment to activity
         initializing_views();
         setListeners();
 
