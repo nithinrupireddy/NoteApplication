@@ -55,6 +55,8 @@ public class EditNoteActivity extends AppCompatActivity implements
         meditNoteBinding = ActivityEditNoteBinding.inflate(getLayoutInflater());
         setContentView(meditNoteBinding.getRoot());
 
+
+        //This is another test comment
         initializing_views();
         setListeners();
 

@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements
         activityMainBinding.fab.setOnClickListener(this);
 
         //Initializing views
+        //This is a test Comment
         initRecylerView();
 
         mnoteRepository = new NoteRepository(this);
